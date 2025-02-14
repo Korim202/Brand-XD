@@ -4,5 +4,5 @@ try:
 except:
     os.system('pip install requests')
 os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
-import brand
-brand.____Main___()
+import fire
+fire.____Main___()
